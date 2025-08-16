@@ -1,4 +1,4 @@
-# Modern Portfolio Template
+# Modern Portfolio
 
 A sleek, responsive portfolio website built with **Astro**, **React**, and **Tailwind CSS**, featuring modern animations and stunning glassmorphism effects.
 
@@ -23,7 +23,7 @@ A sleek, responsive portfolio website built with **Astro**, **React**, and **Tai
 
 ```bash
 git clone https://github.com/parkerdyer/portfolio-2025.git
-cd my-portfolio
+cd portfolio-2025
 
 # Install dependencies
 npm install
@@ -63,6 +63,8 @@ yarn preview
 ## 📤 Deployment
 
 I used **Netlify** to deploy to production.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8491edf2-159c-4533-a1d3-9e7c66373260/deploy-status)](https://app.netlify.com/projects/parkerdyer-dev/deploys)
 
 ## 📝 License
 
