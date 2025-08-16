@@ -5,8 +5,10 @@ export const personalInfo = {
   github: "https://github.com/parkerdyer",
   linkedin: "https://linkedin.com/in/parkerdyer",
   profilePicture: "/parker.jpg",
-  heroDescription:
+  heroDescription: [
     "Hello! I'm Parker, a passionate software engineer with a knack for building impactful applications. With a strong foundation in both frontend and backend technologies, I thrive on creating seamless user experiences and efficient solutions. Let's connect and build something amazing together!",
+    "When I'm not coding, you can find me reading fantasy, writing fiction, or playing with my dog 🐕 (Bastian) and cat 🐈 (Whiskey).",
+  ],
 };
 
 export const workExperience = [
@@ -95,54 +97,30 @@ export const projects = [
   },
 ];
 
-export const awards = [
+export const languages = [
   {
-    name: "Lorem Ipsum Award",
-    issuer: "Lorem Organization",
-    date: "Jan 2020",
-    type: "International",
-    position: "First Place",
+    language: "English",
+    level: "Native",
   },
   {
-    name: "Dolor Sit Amet Prize",
-    issuer: "Ipsum Foundation",
-    date: "Feb 2021",
-    type: "National",
-    position: "Runner-up",
+    language: "French",
+    level: "Conversational",
+  },
+];
+
+export const communityInvolvement = [
+  {
+    organization: "Girl Develop It Columbus",
+    role: "Chapter Leader",
+    date: "May 2017 - December 2018",
+    description:
+      "Led the Columbus chapter of Girl Develop It, organizing workshops and events to empower women in tech.",
   },
   {
-    name: "Consectetur Hackathon",
-    issuer: "Adipiscing Org",
-    date: "Mar 2022",
-    type: "National",
-    position: "Winner",
-  },
-  {
-    name: "Vestibulum Event",
-    issuer: "Vestibulum College",
-    date: "Apr 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "Curabitur Hackfest",
-    issuer: "Curabitur Institute",
-    date: "May 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Praesent Hacks",
-    issuer: "Praesent Group",
-    date: "Jun 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Fusce Hack",
-    issuer: "Fusce Club",
-    date: "Jul 2022",
-    type: "National",
-    position: "Most Impactful Hack",
+    organization: "Girl Develop It Columbus",
+    role: "Organizer",
+    date: "May 2016 - May 2017",
+    description:
+      "Assisted in organizing workshops and events to promote coding skills among women.",
   },
 ];
