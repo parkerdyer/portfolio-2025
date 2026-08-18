@@ -45,7 +45,7 @@ export default function GlassHeader() {
               key={item}
               href={
                 item === "resume"
-                  ? `/Parker Dyer Resume 2025.pdf`
+                  ? `/Parker_Dyer_Lead_Frontend_Resume.pdf`
                   : `#${item.split(" ").join("-")}`
               }
               target={item === "resume" ? "_blank" : "_self"}
